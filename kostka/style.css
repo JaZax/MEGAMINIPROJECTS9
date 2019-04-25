@@ -1,0 +1,41 @@
+body
+{
+    background: #0f0f0f;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+#wrap
+{
+    margin-top:20px;
+}
+#header
+{
+    font-size: 40px;
+    margin-bottom: 20px
+}
+#btn
+{
+    font-family: 'Quicksand', sans-serif;
+    transition: all 300ms;
+    border: none;
+    font-size: 25px;
+    width: 200px;
+    border-radius: 6px;
+    margin-top: 10px;
+    background: #00ffc8;
+    color: #0f0f0f;
+}
+#btn:hover
+{
+    font-family: 'Quicksand', sans-serif;
+    transition: all 300ms;
+    border: none;
+    font-size: 25px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background: #0f0f0f;
+    color: #00ffc8;
+}

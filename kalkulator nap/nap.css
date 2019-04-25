@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body
+{
+    background: #1a1a1a;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+#price
+{
+    font-size: 20px;
+    width: 100px;
+    margin: 5px 0;
+}
+#people
+{
+    font-size: 20px;
+    width: 100px;
+    margin: 5px 0;
+}
+.pole
+{
+    text-align: center
+}
+#output
+{
+    font-size: 30px;
+}
+.txt
+{
+    font-size: 25px;
+}
+#header h1
+{
+    font-size: 40px;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body
+{
+    background: #1a1a1a;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#btn
+{
+    font-size: 30px;
+    padding: 2px 5px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border: none;
+    color: #FC4C3E;
+    background: white;
+}
+#menu
+{
+    border: 1px solid white;
+    float: left;
+    margin-top: 100px;
+    position: absolute;
+    left: 20px;
+    top: -5px;
+    font-size: 30px;
+    padding: 10px;
+    background: #FC4C3E;
+    visibility: hidden;
+}
+#menu a
+{
+    text-decoration: none;
+    color: white;
+}
+.menubtn
+{
+    text-align: center;
+    margin: -5px;
+    padding: 5px;
+    background: #FC4C3E;
+}
+.menubtn:hover
+{
+    text-align: center;
+    margin: -5px;
+    padding: 5px;
+    background: rgb(168, 50, 41);
+}

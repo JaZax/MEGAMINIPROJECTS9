@@ -1,0 +1,18 @@
+body
+{
+    background: #1a1a1a;
+    color: white;
+}
+#header h1
+{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+#input
+{
+    font-size: 26px;
+    text-align: center;
+    padding: 2px 4px;
+    width: 10%
+}

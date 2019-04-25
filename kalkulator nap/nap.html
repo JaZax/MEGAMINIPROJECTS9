@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tip Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="nap.css">
+    <link rel="icon" href="money.png">
+    <script src="nap.js"></script>
+</head>
+<body onload="write()">
+ 
+    <div id="header">
+    <h1>Tip calculat<span style="color: #ffe342">o</span>r</h1>
+    </div>
+
+
+    <div id="Cena" class="txt">
+        Cena
+    </div>
+    <input type="number" id="price" class="pole" value="100">
+    
+
+    <div id="Liczba osób"class="txt">
+        Liczba osób
+    </div>
+    <input type="number" id="people" class="pole" min="1" step="1" min="1" value="2"
+    onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+
+
+    <div id="Procent" class="txt">
+        Procent
+    </div>
+    <input type="range" id="percent" min="1" max="100" step="1" value="20">
+
+    
+    <div id="output"></div>
+</body>
+</html>

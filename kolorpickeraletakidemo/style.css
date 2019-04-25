@@ -1,0 +1,36 @@
+body
+{
+    background: #0f0f0f;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+#sq
+{
+    text-shadow: 3px 3px black;
+    height: 100px;
+    float: right;
+    margin-top: -80px;
+    width: 80%;
+    margin-right: 100px;
+    text-align: center;
+    vertical-align: inline-block;
+    font-size: 60px;
+}
+#btn
+{
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background: white;
+    color: #0f0f0f;
+    padding: 3px 8px;
+    font-size: 20px;
+    width: 170px;
+}
+.rangetxt
+{
+    position: absolute;
+}
+#blue
+{
+    margin-left: 4px;
+}
