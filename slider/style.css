@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    color: white;
+    font-family: 'Sniglet', cursive;
+
+}
+#slider
+{
+    margin-top: 100px;
+}
+#btns
+{
+    margin-top: 30px;
+}
+.btn
+{
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    background: #ffc423;
+    color: #0f0f0f;
+    padding: 6px 16px 3px;
+    margin-left: 5px;
+}
+.btn:hover
+{
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    background: #0f0f0f;
+    color: #ffc423;
+    padding: 6px 16px 3px;
+    margin-left: 5px;
+}
+#output
+{
+    margin-top: 30px;
+    font-size: 30px;
+}

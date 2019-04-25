@@ -1,0 +1,44 @@
+body
+{
+    background: #0f0f0f;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.direct
+{
+    transition: color 300ms;
+    float: left;
+    font-size: 100px;
+    top: 400px;
+}
+.direct:hover
+{
+    transition: color 300ms;
+    color: cadetblue;
+}
+#left
+{
+    position: absolute;
+    left: 25%;
+}
+#right
+{
+    position: absolute;
+    left: 70%;
+}
+#img img
+{
+    position: absolute;
+    top: 230px;
+    left: 33%;
+    height: 450px;
+}
+.direct {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none; 
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }

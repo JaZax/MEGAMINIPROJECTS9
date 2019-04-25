@@ -1,0 +1,93 @@
+
+body
+{
+    background: black;
+    color: #00dfc1;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#container
+{
+    width: 900px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    min-height: 280px;
+}
+
+#word
+{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    min-height: 60px;
+}
+
+#hang
+{
+    float: left;
+    width: 430px;
+    text-align: center;
+    min-height: 280px;
+}
+
+#letters
+{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+    margin-left: 20px;
+}
+.letter
+{    
+    transition: all 300ms;
+    height:30px ;
+    width:30px ;
+    border: 3px solid #00dfc1;
+    color: grey;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}
+.letter:hover
+{
+    transition: all 300ms;
+    height:30px ;
+    width:30px ;
+    border: 3px solid #00a58f;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}
+.clear
+{
+    clear: both;
+}
+#reload
+{
+    cursor: pointer;
+    color: white;
+}
+#reload:hover
+{
+    cursor: pointer;
+    color: #00dfc1;
+}

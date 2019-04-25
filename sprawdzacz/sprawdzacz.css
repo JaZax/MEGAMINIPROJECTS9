@@ -1,0 +1,14 @@
+body
+{
+    background: #1a1a1a;
+    color: white;
+}
+#container
+{
+    font-size: 40px;
+}
+#num
+{
+    font-size: 30px;
+    text-align: center;
+}

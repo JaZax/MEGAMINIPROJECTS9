@@ -1,0 +1,52 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    color: rgb(255, 211, 90);
+    font-family: 'Quicksand', sans-serif;
+}
+#container
+{
+    /*border: 1px solid #3D3A4B;*/
+    background: #181818;
+    margin-top: 100px;
+    max-width: 400px;
+    min-height: 800px;
+    position: relative
+}
+#input
+{
+    color: white;
+    background: #0f0f0f;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 23px;
+    padding: 4px 0;
+    text-align: center;
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+}
+*:focus
+{
+    outline: none;
+}
+#btn
+{
+    color: #0f0f0f;
+    background: rgb(255, 211, 90);
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 23px;
+    padding: 4px 0;
+    width: 20%;
+    border: none
+}
+.message
+{
+    width: 400px;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body
+{
+    background: #1a1a1a;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+.btn
+{
+    transition: all 300ms;
+    font-weight: 900;
+    border: none;
+    padding: 5px 9px;
+    background: #46daff;
+    color: #1a1a1a;
+}
+.btn:hover
+{
+    transition: all 300ms;
+    font-weight: 900;
+    border: none;
+    padding: 5px 9px;
+    background: #1a1a1a;
+    color: #46daff;
+}
+#input
+{
+    font-family: 'Quicksand', sans-serif;
+    height: 500px;
+    width: 700px;
+    border: none;
+    background: #242424;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    padding: 2px 5px;
+    margin: 10px;
+}
+#input:focus 
+{
+    outline: none;
+}
+#output
+{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+}
