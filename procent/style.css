@@ -1,0 +1,32 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+}
+.btn
+{
+    font-size: 2rem;
+}
+.place
+{
+    height: 40px;
+    width: 400px;
+}
+.fill
+{
+    height: 40px;
+    transition: width 200ms;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#fill1
+{
+    width: 25%;
+}
+#fill2
+{
+    width: 75%;
+}

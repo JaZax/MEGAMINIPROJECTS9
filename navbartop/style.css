@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #0f0f0f;
+    color: white;
+    font-family: sans-serif;
+    height: 1500px;
+}
+#title
+{
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px
+}
+#navbar
+{
+    font-size: 30px;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    background: #141414
+}
+#navbar ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+a
+{
+    color: white;
+    text-decoration: none
+}

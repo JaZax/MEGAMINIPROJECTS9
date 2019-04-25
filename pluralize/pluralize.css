@@ -1,0 +1,14 @@
+body
+{
+    background: #1a1a1a;
+    color: white;
+}
+.txt
+{
+    font-size: 15px;
+}
+#output
+{
+    font-size: 30px;
+    font-family: sans-serif;
+}

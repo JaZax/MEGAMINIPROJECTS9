@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body
+{
+    background: #1a1a1a;
+    font-family: 'Quicksand', sans-serif !important;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+}
+#header
+{
+    text-align: center;
+    padding: 20px 5px 30px;
+    font-size: 50px;
+}
+#input
+{
+    width: 230px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    border: none;
+    background: #2a2a2a;
+}
+#input:focus
+{
+    outline: none;
+}
+#result
+{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}

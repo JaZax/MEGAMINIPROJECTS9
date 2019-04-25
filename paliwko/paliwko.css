@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body
+{
+    font-family: 'Quicksand', sans-serif;
+    background: #1a1a1a;
+    color: white;
+}
+.place
+{
+    font-size: 20px;
+}
+#btn
+{
+    transition: all 300ms;
+    border: none;
+    font-size: 20px;
+    padding: 3px 10px;
+    background: #48b19c
+}
+#btn:hover
+{
+    transition: all 300ms;
+    border: none;
+    font-size: 20px;
+    padding: 3px 10px;
+    color: #48b19c;
+    background: #1a1a1a;
+}
+#output
+{
+    font-size: 30px;
+    margin-top: 10px;
+}

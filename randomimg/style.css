@@ -1,0 +1,19 @@
+body{
+    background: #0f0f0f;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+#img{
+    min-height: 600px;
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+#desc{
+    font-size: 40px;
+    position: absolute;
+    z-index: 99;
+    right: 400px;
+    top: 300px;
+    width: 500px;
+}

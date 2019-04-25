@@ -1,0 +1,39 @@
+body
+{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+#text
+{
+    text-shadow: 4px 4px black;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20px;
+}
+#btn
+{
+    font-size: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 30px auto;
+    background: black;
+    color: transparent;
+    padding: 5px 13px;
+}
+#btn:focus
+{
+    outline: none;
+}
+#print
+{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
