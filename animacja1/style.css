@@ -1,0 +1,21 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    color: white;
+}
+#container
+{
+    position: relative;
+    height: 100px;
+    width: 500px;
+    border: 1px solid red;
+}
+#object
+{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+}

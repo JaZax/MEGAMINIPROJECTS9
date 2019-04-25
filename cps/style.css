@@ -1,0 +1,13 @@
+body
+{
+    background: #0f0f0f;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#click
+{
+    height: 200px;
+    width: 600px;
+    font-size: 30px;
+}

@@ -1,0 +1,21 @@
+body
+{
+    background: #0f0f0f;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#board
+{
+    position: relative;
+    margin: 30px auto;
+    height: 800px;
+    width: 800px;
+}
+#object
+{
+    background: yellow;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+}

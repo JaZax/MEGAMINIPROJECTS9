@@ -1,0 +1,45 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    color: white;
+    font-family: 'Quicksand', sans-serif !important;
+}
+#header
+{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#lite
+{
+    color: #ff7979
+}
+#input
+{
+    font-family: 'Quicksand', sans-serif ;
+    resize: none;
+    border: none;
+    color: white;
+    background: #131313;
+    height: 300px;
+    width: 500px;
+    float: left;
+    margin-left: 280px;
+    margin-top: 50px;
+    font-size: 25px;
+    padding: 5px;
+}
+    input:focus, textarea { outline: none ! important; }
+#output
+{
+    font-size: 25px; 
+    float: left;
+    height: 300px;
+    width: 650px;
+    margin-left: 180px;
+    margin-top: 50px;
+    padding: 5px;
+}

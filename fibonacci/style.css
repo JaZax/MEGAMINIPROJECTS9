@@ -1,0 +1,55 @@
+body
+{
+    background: #0f0f0f;
+    color: antiquewhite;
+    font-family: 'Quicksand', sans-serif;
+}
+#header
+{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#wikipedia
+{
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+#wikipedia a
+{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+#wikipedia a:hover
+{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+#wrap
+{
+    margin-top: 50px;
+}
+#input
+{
+    font-size: 25px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding: 4px 3px 4px 8px;
+}
+#subm
+{
+    font-size: 25px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding: 4px 3px 33px 8px;
+}

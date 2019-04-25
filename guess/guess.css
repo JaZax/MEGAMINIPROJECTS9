@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body
+{
+    font-family: 'Quicksand', sans-serif !important;
+    background: #1a1a1a;
+    color: white;
+}
+#header
+{
+    font-size: 65px;
+    font-weight: 300;
+    margin: 50px auto;
+}
+#txt1
+{
+    border: none;
+    font-size: 30px;
+    background: #222222;
+    color: white;
+    width: 200px;
+    display: block;
+}
+#btn1
+{
+    border: none;
+    background: #ffda5f;
+    color: #333333;
+    margin-top: 15px;
+    padding: 3px 65px;
+    font-size: 30px;
+}
+#output
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+input:focus {
+    outline: none;
+    }
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}

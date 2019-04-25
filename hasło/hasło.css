@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body
+{
+    background: #1b1b1b;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+#pass
+{
+    background: #2c2c2c;
+    text-align: center;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    border: none;
+    font-size: 35px;
+    color: orange;
+    height: 35px;
+    width: 197px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+#pass:focus {
+    outline: none;
+}
+.output
+{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+#wrapper
+{
+    margin-left: 200px;
+}
+#container
+{
+    padding-top: 60px;
+    margin-left: 40px;
+}
