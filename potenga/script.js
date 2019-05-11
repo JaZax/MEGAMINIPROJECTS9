@@ -12,11 +12,10 @@ window.onload = ()=>
         result = Math.pow(base, index);
         console.log(regex.test(result));
 
-        document.getElementById('result').innerHTML = result;
-
         last = regex.exec(result);
 
-        console.log(last[0])
+        document.getElementById('result').innerHTML = last;
+
 })
 }
 

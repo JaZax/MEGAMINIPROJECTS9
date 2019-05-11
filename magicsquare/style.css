@@ -1,0 +1,30 @@
+body{
+    background: #0f0f0f;
+    margin: 0;
+    height: 1000px
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.input{
+    margin-left: -4px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid black;
+    background: #1d1d1d;
+    color: white;
+    font-size: 30px;
+    outline: none;
+}
+.input:focus{
+    background: #272727;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
