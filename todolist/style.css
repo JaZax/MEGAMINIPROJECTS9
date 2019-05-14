@@ -1,0 +1,41 @@
+body
+{
+    background: #0f0f0f;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+#wrap
+{
+    text-align: center;
+}
+#top
+{
+    margin-top: 15px;
+}
+#quest
+{
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+#btn
+{
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+#quests
+{
+}
+.quest
+{
+    border: 1px solid lightyellow
+}

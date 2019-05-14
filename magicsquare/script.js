@@ -1,31 +1,35 @@
 function print (){
-    
-    const input = 
-    {
-        one : parseInt(document.getElementById('i1').value),
-        two : parseInt(document.getElementById('i2').value),
-        three : parseInt(document.getElementById('i3').value),
-        four : parseInt(document.getElementById('i4').value),
-        five : parseInt(document.getElementById('i5').value),
-        six : parseInt(document.getElementById('i6').value),
-        seven : parseInt(document.getElementById('i7').value),
-        eight : parseInt(document.getElementById('i8').value),
-        nine : parseInt(document.getElementById('i9').value),
+
+    const inputvalues = new Array(9);
+
+    inputvalues[0] = parseInt(document.getElementById('i1').value);
+    inputvalues[1] = parseInt(document.getElementById('i2').value);
+    inputvalues[2] = parseInt(document.getElementById('i3').value);
+    inputvalues[3] = parseInt(document.getElementById('i4').value);
+    inputvalues[4] = parseInt(document.getElementById('i5').value);
+    inputvalues[5] = parseInt(document.getElementById('i6').value);
+    inputvalues[6] = parseInt(document.getElementById('i7').value);
+    inputvalues[7] = parseInt(document.getElementById('i8').value);
+    inputvalues[8] = parseInt(document.getElementById('i9').value);
+
+    for(i = 0 ; i < inputvalues.length ; i++)
+    {   
+
+        switch(i)
+        {
+            case 0:
+            console.log(inputvalues[0] + inputvalues[1] + inputvalues[2]);
+            
+            case 3:
+            console.log(inputvalues[3] + inputvalues[4] + inputvalues[5]);
+
+            case 6:
+            console.log(inputvalues[6] + inputvalues[7] + inputvalues[8]);
+
+            default:
+            console.log('nic')
+        }
+        
     }
 
-    const cases = 
-    {
-        one : input.one + input.two + input.three,
-        two : input.four + input.five + input.six,
-        three : input.seven + input.eight + input.nine,
-        four : input.one + input.four + input.seven,
-        five : input.two + input.five + input.eight,
-        six : input.three + input.six + input.nine,
-        seven : input.one + input.five + input.nine,
-        eight : input.three + input.five + input.seven,
-    }
-
-    var sum = cases
-
-    console.log(sum)
 }
