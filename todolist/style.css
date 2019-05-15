@@ -20,22 +20,41 @@ body
 }
 #top
 {
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 55px;
 }
 #quest
 {
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
+    border: none;
+    background: #1f1f1f;
+    color: white;
+    width: 80vh;
+    padding: 10px; 
 }
-#btn
+.btn
 {
+    border: none;
+    color: white;
+    background: #1f1f1f;
+    padding: 10px 20px;
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
+    transition: background 300ms;
+}
+.btn:hover
+{
+    background: #0a0a0a;
+    transition: background 300ms;
 }
 #quests
 {
 }
 .quest
 {
-    border: 1px solid lightyellow
+    background: #1f1f1f;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px 10vh;
 }

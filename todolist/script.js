@@ -1,5 +1,6 @@
 
 const btn = document.querySelector('#btn');
+const btn2 = document.querySelector('#btn2');
 const quests = document.querySelector('#quests');
 let count = 0;
 
@@ -28,3 +29,20 @@ btn.addEventListener('click', ()=>{
         alert("quest hasn't been passed")
     }
 })  
+
+btn2.addEventListener('click', ()=>{
+
+    if(count > 0)
+    {
+        $('.quest').remove();
+    }else{
+        alert('There are not any quests')
+    }
+
+})
+
+window.onkeypress = function(event) {
+    if (event.keyCode == 13) {
+        btn.click()
+    }
+ }
