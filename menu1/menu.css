@@ -29,7 +29,7 @@ body
     font-size: 30px;
     padding: 10px;
     background: #FC4C3E;
-    visibility: hidden;
+    display: none;
 }
 #menu a
 {

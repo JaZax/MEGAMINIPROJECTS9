@@ -1,6 +1,16 @@
-function kek()
-{
-    var menu = document.getElementById("menu");
+const menu = document.querySelector('#menu');
 
-    menu.style.visibility = "visible"
+function displayfunc()
+{
+    
+    if(menu.style.display = 'none')
+    {
+        menu.style.display = 'block'
+    }
+    
+    if(menu.style.display = 'block')
+    {
+        menu.style.display = 'none'
+    }
+
 }
