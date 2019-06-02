@@ -28,7 +28,9 @@ btn.addEventListener('click', ()=>
 
     const result = '#' + newr + newg + newb;
 
-    document.body.style.background = result
+    console.log(document.querySelector('#output').clientHeight)
+    document.querySelector('#output').innerHTML = result;
+    document.body.style.background = result;
 })
 
 // r/badcode intensifies
