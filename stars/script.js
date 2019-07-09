@@ -19,14 +19,10 @@ for(i = 1 ; i <= 5 ; i++)
 
     document.getElementById(star_id).addEventListener('mouseleave', ()=>{
 
-        strength = star_nr;
-
-        for(i = 1; i <= strength ; i++)
+        for(let i = 1 ; i <= 5 ; i++)
         {
-            document.getElementById('star' + i).style.background = 'transparent';
+            document.getElementById('star' + i).innerHTML = '<img src="img/disactive.png" height="100px">'
         }
-
-        document.getElementById(star_id).style.background = 'transparent'
 
     })
 
@@ -36,7 +32,7 @@ for(i = 1 ; i <= 5 ; i++)
 
         for(i = 1; i <= strength ; i++)
         {
-            document.getElementById('star' + i).style.background = '#1b1b1b';
+            document.getElementById('star' + i).innerHTML = '<img src="img/active.png" height="100px">'
         }
 
     })
