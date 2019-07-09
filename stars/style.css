@@ -1,0 +1,17 @@
+body{
+    background: #0f0f0f;
+    color: white;
+    box-sizing: border-box;
+}
+#wrap{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.star{
+    height: 100px;
+    width: 100px;
+    border: 3px solid #333;
+    margin: 3px;
+}
