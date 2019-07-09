@@ -2,6 +2,7 @@ body{
     background: #0f0f0f;
     color: white;
     box-sizing: border-box;
+    overflow: hidden;
 }
 #wrap{
     display: flex;
