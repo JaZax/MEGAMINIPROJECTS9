@@ -1,6 +1,4 @@
 
-let strength = 0;
-
 const stars = {
 
     'star1' : 1,
@@ -17,20 +15,23 @@ for(i = 1 ; i <= 5 ; i++)
     let star_id = 'star' + i;
     let star_nr = stars[star_id];
 
-    document.getElementById(star_id).addEventListener('mouseleave', ()=>{
+    document.getElementById(star_id).addEventListener('mouseout', ()=>{
 
-        for(let i = 1 ; i <= 5 ; i++)
+        for(i = 1; i <= 5; i++)
         {
             document.getElementById('star' + i).innerHTML = '<img src="img/disactive.png" height="100px">'
         }
 
     })
 
-    document.getElementById(star_id).addEventListener('mouseover', ()=>{
+    document.getElementById(star_id).addEventListener('mousemove', ()=>{
 
-        strength = star_nr;
+        for(i = 1; i <= 5; i++)
+        {
+            document.getElementById('star' + i).innerHTML = '<img src="img/disactive.png" height="100px">'
+        }
 
-        for(i = 1; i <= strength ; i++)
+        for(i = 1; i<=star_nr ; i++)
         {
             document.getElementById('star' + i).innerHTML = '<img src="img/active.png" height="100px">'
         }
